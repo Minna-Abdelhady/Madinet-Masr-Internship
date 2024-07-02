@@ -1,0 +1,76 @@
+/* project.css */
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    
+}
+
+h1 {
+    text-align: left;
+    padding-left: 2%;
+    font-size: 70px;
+    color: black;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Optional: add some space below the header section */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project:hover {
+    background-color: #efefef;
+}
+
+.project h2 {
+    text-align: center;
+    margin-top: 5px;
+    /* Optional: Add some space between the image and text */
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 27px;
+    color: black;
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 40px;
+    padding-left: 25px;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    /* Optional: Add rounded corners to the images */
+    padding: 15px;
+}
+
+.taj-cont {
+    width: 70%;
+    max-width: 70%; /* Optional: limit the max width */
+    height: auto;
+    align-self: flex-end; /* Align image to the right */
+}

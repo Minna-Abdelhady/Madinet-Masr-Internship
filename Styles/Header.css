@@ -11,7 +11,31 @@ nav {
     align-items: center;
 }
 
-button {
+#nav-btn{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #DF0419;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-right: 20px; /* Add some space between buttons */
+}
+
+#home-btn{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #DF0419;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-right: 20px; /* Add some space between buttons */
+}
+
+#compare-btn{
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -57,6 +81,4 @@ button {
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41; /* Optional: hover color for the main button */
-}
+
