@@ -1,16 +1,7 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    /* background-color: #f2f2f2; */
-}
-
 .card-container {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
     gap: 20px;
     padding: 20px;
 }
@@ -31,7 +22,7 @@ body {
     padding: 2px 16px;
 }
 
-img {
+#index-img {
     border-radius: 5px 5px 0 0;
     width: 100%;
     height: auto;
