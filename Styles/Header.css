@@ -2,8 +2,13 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* This will push the button to the right */
-    padding: 10px; /* Optional: Add some padding for spacing */
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 button {
@@ -15,4 +20,43 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+    margin-right: 20px; /* Add some space between buttons */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DF0419; /* Match the button color */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    top: 101%; /* Position it below the button */
+    left: 50%;
+    transform: translateX(-56%); /* Center the dropdown content */
+}
+
+.dropdown-content a {
+    color: white; /* Match the button text color */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #930000; /* Optional: hover color */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41; /* Optional: hover color for the main button */
 }
