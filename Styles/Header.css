@@ -1,0 +1,18 @@
+/* styles.css */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will push the button to the right */
+    padding: 10px; /* Optional: Add some padding for spacing */
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #DF0419;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
