@@ -1,11 +1,11 @@
-﻿Taj City,ImageURL
-Origami,../Images/origami-taj.png
-Clubside,../Images/club-side-main-page.jpg
-Elect Villas,../Images/elect.png
-Taj Ville,../Images/taj-ville.png
-Kinda,../Images/kinda.jpg
-Taj Gardens,../Images/taj-gardens.png
-Lake Park Studios,../Images/lakepark.png
-Shayla,../Images/shalya-1.jpg
-Park Residence,../Images/park-residence.png
-Taj Sultan,../Images/taj-sultan.png
+﻿Taj City,ImageURL,PageURL
+Origami,../Images/origami-taj.png, ../Pages/Origami.html
+Clubside,../Images/club-side-main-page.jpg, ../Pages/Clubside.html
+Elect Villas,../Images/elect.png, ../Pages/ElectVillas.html
+Taj Ville,../Images/taj-ville.png, ../Pages/TajVille.html
+Kinda,../Images/kinda.jpg, ../Pages/Kinda.html
+Taj Gardens,../Images/taj-gardens.png, ../Pages/TajGardens.html
+Lake Park Studios,../Images/lakepark.png, ../Pages/LakeParkStudios.html
+Shayla,../Images/shalya-1.jpg, ../Pages/Shalya.html
+Park Residence,../Images/park-residence.png, ../Pages/ParkResidence.html
+Taj Sultan,../Images/taj-sultan.png, ../Pages/TajSultan.html

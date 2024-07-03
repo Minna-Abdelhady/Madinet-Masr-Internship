@@ -25,9 +25,13 @@ function displayData({ headers, rows }) {
     rows.forEach(row => {
         const projectName = row[0];
         const imageUrl = row[1];
+        const pageUrl = row[2];
 
         const projectDiv = document.createElement('div');
         projectDiv.className = 'project';
+
+        const link = document.createElement('a');
+        link.href = pageUrl;
 
         const button = document.createElement('button');
         const img = document.createElement('img');
@@ -39,7 +43,8 @@ function displayData({ headers, rows }) {
         h2.textContent = projectName;
 
         button.appendChild(h2);
-        projectDiv.appendChild(button);
+        link.appendChild(button);
+        projectDiv.appendChild(link);
         container.appendChild(projectDiv);
     });
 }
