@@ -21,21 +21,26 @@ function parseCSV(data) {
 
 // Function to display the data
 function displayData({ headers, rows }) {
-    const container = document.getElementById('image-container');
+    const container = document.getElementById('projects-container');
     rows.forEach(row => {
-        const text = row[0];
+        const projectName = row[0];
         const imageUrl = row[1];
+
+        const projectDiv = document.createElement('div');
+        projectDiv.className = 'project';
 
         const button = document.createElement('button');
         const img = document.createElement('img');
         img.src = imageUrl;
+        img.alt = projectName;
         button.appendChild(img);
 
         const h2 = document.createElement('h2');
-        h2.textContent = text;
+        h2.textContent = projectName;
 
-        container.appendChild(button);
-        container.appendChild(h2);
+        button.appendChild(h2);
+        projectDiv.appendChild(button);
+        container.appendChild(projectDiv);
     });
 }
 
