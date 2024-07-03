@@ -11,6 +11,10 @@ h1 {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container1 {
     display: flex;
     justify-content: space-between;
@@ -47,7 +51,7 @@ h1 {
 
 h3 {
     font-size: 40px;
-    padding-left: 25px;
+    /* padding-left: 25px; */
 }
 
 button {
