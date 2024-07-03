@@ -12,6 +12,10 @@ h1 {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container1 {
     display: flex;
     justify-content: space-between;
